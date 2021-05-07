@@ -1,0 +1,32 @@
+###
+POST http://localhost:8080/api/example03/users
+Content-Type: application/json
+
+{
+  "name": "T",
+  "age": 17,
+  "email": "123456"
+}
+
+###
+
+###
+GET http://localhost:8080/api/example03/users/aaa/file
+
+###
+
+###
+POST http://localhost:8080/api/example03/users
+Content-Type: application/json
+
+{
+  "name": "QYH",
+  "age": "abc",
+  "email": "123456"
+}
+###
+
+###
+GET http://localhost:8080/api/example03/users/a;
+
+###

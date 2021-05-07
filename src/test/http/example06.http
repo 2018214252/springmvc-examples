@@ -1,0 +1,21 @@
+###
+POST http://localhost:8080/api/example06/login
+Content-Type: application/json
+
+{
+  "userName": "QYH",
+  "password": "123456"
+}
+
+###
+
+###
+GET http://localhost:8080/api/example06/admin/welcome
+
+###
+
+###
+GET http://localhost:8080/api/example06/admin/welcome
+token:b9dc168eeb79c216e8f741189e0fbf6f2b2e99c144aed5f4a9d5059dcae847bffb6051a4cabb2866291abfc807617888
+
+###

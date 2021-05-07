@@ -1,0 +1,14 @@
+###
+GET http://localhost:8080/api/example01/index
+
+###
+
+###
+GET http://localhost:8080/api/example01/addresses
+
+h###
+
+###
+GET http://localhost:8080/api/example01/inject
+
+###
