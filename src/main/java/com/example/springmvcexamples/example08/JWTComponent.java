@@ -29,6 +29,9 @@ public class JWTComponent {
                 .sign(Algorithm.HMAC256(secretKey));
     }
 
+
+
+
     public DecodedJWT decode(String token){
         try {
             return JWT.require(Algorithm.HMAC256(secretKey)).build().verify(token);
